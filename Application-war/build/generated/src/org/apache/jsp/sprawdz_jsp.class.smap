@@ -1,0 +1,15 @@
+SMAP
+sprawdz_jsp.java
+JSP
+*S JSP
+*F
++ 0 sprawdz.jsp
+sprawdz.jsp
+*L
+1,34:58
+35:92,10
+36,3:102,3
+39,3:111
+46,22:119
+67,5:141
+*E

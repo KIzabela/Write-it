@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-11-07, 22:34:28
+    Author     : IZA
+*/
+
+body{
+     margin-right:auto;
+    margin-left:auto;
+}
+#top{
+   
+    height: 150px;
+    background-color: #ff9999;
+    font-size: 40px;
+    text-align: center;
+    font-family:serif;
+    color: white;
+    border-bottom-style: dashed;
+    border-bottom-color: #ff0066;
+}
+
+#left{
+    float:left;
+    width: 300px;
+}
+
+#right{
+    float:left;
+}
+
+#bottom{
+    clear:both;
+}
+#middle{
+    height: 100px;
+}
+/* Gallery */
+
+#gallery {
+	list-style-type: none;
+}
+
+#gallery li {
+    font-weight: bold;
+    font-size: 20px;
+	position: relative;
+	display: inline-block;
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: solid 5px white;
+	transition: all 1s;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+#gallery li:hover {
+	background-size: 700px;
+	width: 250px;
+	height: 250px;
+}
+
+#gallery li .overlay {
+    
+    text-align: center;
+    color:#ff9999;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+    
+}
+
+#gallery li:hover .overlay {
+    font-size: 25px;
+    color:darkviolet;
+	background: rgba(0, 0, 0, 0);
+}
+
+#gallery li.image1 {
+    text-align: center;
+	background-image: url("images/image1.jpg");
+}
+
+#gallery li.image2 {
+	background-image: url("images/image2.jpg");
+}
+
+#gallery li.image3 {
+	background-image: url("images/image3.jpg");
+}
+
+
+ 
